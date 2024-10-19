@@ -1,1 +1,1 @@
-console.log("Hello, TypeScript with Docker!");
+console.log("Hello, TypeScript with Dockwwwwwwwwwwwwwer!");
