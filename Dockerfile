@@ -12,4 +12,4 @@ COPY src ./src
 
 RUN npm run build
 
-CMD ["node", "dist/index.js"]  # dist/index.jsはコンパイル後のエントリーポイントを
+CMD ["node", "dist/index.js"]  # dist/index.

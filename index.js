@@ -18,3 +18,7 @@ t.test('loading as main module will load the cli', async t => {
   t.equal(p.signal, null)
   t.match(p.stdout, ls.usage)
 })
+
+
+
+///init db
