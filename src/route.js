@@ -10,3 +10,8 @@ app.get('/about', (req, res) => {
     res.send('<h1>About Us</h1><p>このアプリについての情報です。</p>');
 });
 
+
+
+app.use((req, res) => {
+    res.status(404).send('<h1>404 Not Found</h1><p>お探しのページは見つかりませんでした。</p>');
+});
