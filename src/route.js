@@ -15,3 +15,8 @@ app.get('/about', (req, res) => {
 app.use((req, res) => {
     res.status(404).send('<h1>404 Not Found</h1><p>お探しのページは見つかりませんでした。</p>');
 });
+
+
+app.listen(port, () => {
+    console.log(`サーバーは http://localhost:${port} で動作中`);
+});
